@@ -1,0 +1,80 @@
+body {
+    background: rgb(207, 204, 204);
+    /* text-align: center; */
+}
+
+h1 {
+    font-family: 'Girassol', cursive;
+    font-size: 50px;
+    margin: 0px 90px 0px 0px;
+}
+
+.heading {
+    display: flex;
+}
+
+/* #reset {
+    margin-right: 50px;
+} */
+
+.boardOptions {
+    width: 15px;
+    font-size: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+#reset {
+    margin-right: 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(250, 25, 25);
+    color: beige;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+/* #pVA {
+    margin-bottom: 10px;
+    margin-right: 3px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(142, 143, 145);
+    color: beige;
+    outline: none;
+    padding: 5px 10px;
+}
+
+#pVP {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(142, 143, 145);
+    outline: none;
+    color: beige;
+} */
+
+#gameboard {
+    height: 440px;
+    width: 805px;
+}
+
+.tile {
+    padding: 0;
+    height: calc(36%/3 - 4px);
+    width: calc(38%/4 - 4px);
+    background: rgb(81, 150, 207);
+    border: 1px solid rgb(207, 204, 204);
+    float: left;
+}
+
+#win {
+    font-size: 50px;
+    font-family: 'Girassol', cursive;
+    margin: 0px 0px;
+}
